@@ -1,0 +1,122 @@
+body
+{
+	margin: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav
+{
+	position: fixed;
+	width: 80px;
+	height: 100vh;
+	right: 0px;
+}
+
+nav div
+{
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	transform: translateY(-50%);
+}
+
+nav span
+{
+	display: block;
+	border: solid 1px rgba(0, 0, 0, 0);
+	margin: 15px;
+	padding: 5px; 
+	font-size: 24px;
+	color: #efefef;
+}
+
+nav span:hover
+{
+	background: rgba(0, 0, 0, 0.2); 
+	border-radius: 50%;
+}
+
+section
+{
+	border: solid 1px rgba(0, 0, 0, 0);
+	height: 100vh;
+}
+
+section h3
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #efefef;
+	text-shadow: 1px 1px #212121;
+}
+
+.home
+{
+	background-color: white;
+	background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about
+{
+	background-image: url('https://i.pinimg.com/originals/2f/25/be/2f25be9a2ecb44fc0a76c4bf709e7c2c.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.projects
+{
+	background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-repeat: no-repeat;
+	background-size: cover;
+	  
+}
+
+.resume
+{
+	background-image: url('https://i.pinimg.com/originals/2f/25/be/2f25be9a2ecb44fc0a76c4bf709e7c2c.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.contact
+{
+	background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-repeat: no-repeat;
+	background-size: cover;
+	  
+}
+
+::-webkit-scrollbar
+{
+	width:0px;
+	height:0px;
+}
+ 
+::-webkit-scrollbar-track
+{
+	background: #E6E9ED;
+}
+ 
+::-webkit-scrollbar-thumb
+{
+	background: #cccccc;
+}
+
+::-webkit-scrollbar-thumb:window-inactive
+{
+	background: #cccccc;  
+}
+
+@media(min-width:1024px)
+{
+	::-webkit-scrollbar
+	{
+		width: 5px;
+		height: 5px;
+	}
+}
